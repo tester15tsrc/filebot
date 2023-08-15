@@ -90,7 +90,7 @@ After the image is built, you can run your application with the following comman
 docker run -it -v /path/to/filebot/:/app/ -u $(id -u):$(id -g) filebot
 ```
 
-Optionally, you may run gpt4. Please be aware that it many times more expensive in price per token than gpt-3.5-turbo.
+~~Optionally, you may run gpt4. Please be aware that it many times more expensive in price per token than gpt-3.5-turbo.~~ I somehow lost the functionality in some branch somewhere and I mistakenly thought I merged into master - will fix or hunt it down soon. You can just do a find and replace for gpt-3.5-turbo with gpt4 in your code editor on the source code and then run it like that if you're desperate.
 
 ```
 docker run -it -v /path/to/filebot/:/app/ -u $(id -u):$(id -g) filebot python filebot.py --model gpt4
