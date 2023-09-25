@@ -1,4 +1,4 @@
-# FileBot
+# FileBot demo for the guys
 
 I'd use Khoj if you haven't heard of it. Check it out. It's better all around user experience and has less rough edges, not to mention a proper GUI! It will yield about the same results for you, and Khoj can probably handle more files than FileBot right now.
 
